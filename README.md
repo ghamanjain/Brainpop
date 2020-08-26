@@ -1,2 +1,2 @@
 # Brainpop
- A quiz web application
+ A quiz web application using JAVA
