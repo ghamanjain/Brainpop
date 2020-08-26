@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui" >
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialLabel ui:field="l1" width="100%" text="Buzzer"></m:MaterialLabel>
+		<m:MaterialTextBox ui:field="t1" width="100%" label="Question" iconType="POLL" />
+			<m:MaterialTextBox ui:field="t2" width="100%" label="Option 1" iconType="QUESTION_ANSWER" />
+			<m:MaterialTextBox ui:field="t3" width="100%" label="Option 2" iconType="QUESTION_ANSWER" />
+			<m:MaterialTextBox ui:field="t4" width="100%" label="Option 3" iconType="QUESTION_ANSWER" />
+			<m:MaterialTextBox ui:field="t5" width="100%" label="Option 4" iconType="QUESTION_ANSWER" />
+			<m:MaterialTextBox ui:field="t6" width="100%" label="Correct Sequence" iconType="BOOKMARK" />		
+			<m:MaterialButton waves="PURPLE" ui:field="b1" text="Upload To Database" width="100%" backgroundColor="WHITE" textColor="BLACK"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 

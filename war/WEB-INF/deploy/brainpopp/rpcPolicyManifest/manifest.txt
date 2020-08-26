@@ -1,0 +1,3 @@
+# Module brainpopp
+# RPC service class, partial path of RPC policy file
+com.client.GreetingService, 5E180B5D8F895CAC471CAF22710279D6.gwt.rpc

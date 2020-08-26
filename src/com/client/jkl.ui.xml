@@ -1,0 +1,63 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui"
+	xmlns:m="urn:import:gwt.material.design.client.ui" >
+	<ui:style>
+	Body{
+	Background:url(https://www.roctechnologies.com/wp-content/uploads/2018/07/notebook-1280538_1920.jpg);
+	background-size:100%;
+	background-position:center;
+	
+   
+	}
+	.panel{
+ background:white;
+ background-size: 100%;
+ padding: 0px !important;
+ }
+ .fieldPanel{
+ background: white;
+ padding: 6%;
+ }
+ .imgProfile{
+ margin-top: -120px;
+ width: 30%;
+ margin-left: 30%;
+ border: 5px solid #fff;
+ }
+ .rowAction{
+ margin-top: 20px;
+ }
+ .login_demo{
+ padding: 5%;
+ }
+	
+	</ui:style>
+	<g:HTMLPanel>
+	 <m:MaterialRow addStyleNames="{style.login_demo}">
+  <m:MaterialColumn grid="s12 m8 l9" offset="l1" >
+    <m:MaterialPanel shadow="1" addStyleNames="{style.panel}">
+			<m:MaterialLabel ui:field="l1" width="100%" text="MCQ"></m:MaterialLabel>
+			<m:MaterialRow>
+			<m:MaterialColumn>
+			<m:MaterialTextBox ui:field="t7" width="100%" label="TeacherName" iconType="QUESTION_ANSWER" /></m:MaterialColumn>
+			<m:MaterialColumn><m:MaterialTextBox ui:field="t8" width="100%" label="Subject" iconType="QUESTION_ANSWER" /></m:MaterialColumn>
+			<m:MaterialColumn><m:MaterialTextBox ui:field="t9" width="100%" label="Teacher Id" iconType="QUESTION_ANSWER" /></m:MaterialColumn>
+			<m:MaterialColumn grid="s12 m4 l4"><m:MaterialButton waves="PURPLE" ui:field="b2" text="Add" width="40%" backgroundColor="GREEN" textColor="BLACK"/></m:MaterialColumn>
+			</m:MaterialRow>
+			<m:MaterialTextBox ui:field="t1" width="70%" label="Question" iconType="POLL" />
+			<m:MaterialTextBox ui:field="t2" width="70%" label="Answer 1" iconType="QUESTION_ANSWER" />
+			<m:MaterialTextBox ui:field="t3" width="70%" label="Answer 2" iconType="QUESTION_ANSWER" />
+			<m:MaterialTextBox ui:field="t4" width="70%" label="Answer 3" iconType="QUESTION_ANSWER" />
+			<m:MaterialTextBox ui:field="t5" width="70%" label="Answer 4" iconType="QUESTION_ANSWER" />
+			<m:MaterialTextBox ui:field="t6" width="70%" label="Correct Answer" iconType="BOOKMARK" />
+			<m:MaterialRow addStyleNames="{style.rowAction}">
+      
+    <m:MaterialButton waves="PURPLE" ui:field="b1" text="Upload To Database" width="100%" backgroundColor="WHITE" textColor="BLACK"/>
+     
+     </m:MaterialRow>		
+			
+	</m:MaterialPanel></m:MaterialColumn>
+	</m:MaterialRow>
+	</g:HTMLPanel>
+</ui:UiBinder> 

@@ -1,0 +1,18 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+ 	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<g:HTMLPanel>
+	<m:MaterialTextBox ui:field="t1" label="FirstName" length="40"/>
+	<m:MaterialTextBox ui:field="t2" label="LastName" length="40"/>
+	<m:MaterialTextBox ui:field="t3" label="Email" length="40"/>
+	<m:MaterialTextBox ui:field="t4" label="Password" length="40"/>
+	<m:MaterialTextBox ui:field="t5" label="ConfirmPassword" length="40"/>
+	
+		
+		<m:MaterialButton ui:field="b1" text="Submit" waves="DEFAULT" backgroundColor="WHITE" textColor="BLACK"/>
+	</g:HTMLPanel>
+</ui:UiBinder> 

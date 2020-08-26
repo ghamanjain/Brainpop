@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:m="urn:import:gwt.material.design.client.ui" 
+xmlns:g="urn:import:com.google.gwt.user.client.ui" 
+xmlns:ui="urn:ui:com.google.gwt.uibinder">
+
+<ui:style> </ui:style>
+
+<m:MaterialPanel ui:field="p1">	</m:MaterialPanel>
+
+</ui:UiBinder>
